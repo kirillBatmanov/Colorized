@@ -15,7 +15,6 @@ class ViewController: UIViewController {
     @IBOutlet var greenValueLabel: UILabel!
     @IBOutlet var blueValueLabel: UILabel!
     
-   
     @IBOutlet var redSlider: UISlider!
     @IBOutlet var greenSlider: UISlider!
     @IBOutlet var blueSlider: UISlider!
@@ -24,8 +23,6 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         mainLabel.layer.cornerRadius = 20
     }
-    
-
     
     @IBAction func changeRedSliderValue() {
         let roundValue = String(format: "%.2f", redSlider.value)

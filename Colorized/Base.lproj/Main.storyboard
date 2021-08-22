@@ -17,10 +17,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FuK-Kd-n3x">
-                                <rect key="frame" x="20.666666666666657" y="130" width="386.66666666666674" height="182"/>
-                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                            </view>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="fBC-Nf-i61">
                                 <rect key="frame" x="182" y="415" width="226" height="106"/>
                                 <subviews>
@@ -105,21 +101,25 @@
                                     <constraint firstAttribute="width" constant="34.333333333333336" id="OXz-2X-bON"/>
                                 </constraints>
                             </stackView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FuK-Kd-n3x">
+                                <rect key="frame" x="20.666666666666657" y="54" width="386.66666666666674" height="182"/>
+                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6xg-zD-lx6"/>
                         <color key="backgroundColor" systemColor="systemIndigoColor"/>
                         <constraints>
-                            <constraint firstItem="FuK-Kd-n3x" firstAttribute="width" secondItem="eq0-RG-v2o" secondAttribute="width" multiplier="0.903382" id="0ms-ll-aae"/>
-                            <constraint firstItem="FuK-Kd-n3x" firstAttribute="height" secondItem="eq0-RG-v2o" secondAttribute="height" multiplier="0.196429" id="4gq-w0-TbR"/>
-                            <constraint firstItem="FuK-Kd-n3x" firstAttribute="centerX" secondItem="6xg-zD-lx6" secondAttribute="centerX" id="7nY-SD-kLg"/>
+                            <constraint firstItem="FuK-Kd-n3x" firstAttribute="width" secondItem="eq0-RG-v2o" secondAttribute="width" multiplier="0.903427" id="8x4-eh-f1U"/>
+                            <constraint firstItem="FuK-Kd-n3x" firstAttribute="height" secondItem="eq0-RG-v2o" secondAttribute="height" multiplier="0.196544" id="ILs-An-lJH"/>
                             <constraint firstItem="fBC-Nf-i61" firstAttribute="centerY" secondItem="6xg-zD-lx6" secondAttribute="centerY" id="LkT-r5-Wyl"/>
                             <constraint firstItem="fBC-Nf-i61" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="glC-zv-xrd" secondAttribute="trailing" constant="68" id="NhV-Q3-P1J"/>
                             <constraint firstItem="glC-zv-xrd" firstAttribute="leading" secondItem="YY6-gl-aqt" secondAttribute="trailing" constant="8" symbolic="YES" id="PhN-ay-kHj"/>
                             <constraint firstItem="6xg-zD-lx6" firstAttribute="trailing" secondItem="fBC-Nf-i61" secondAttribute="trailing" constant="20" id="Qbw-51-k2M"/>
-                            <constraint firstItem="FuK-Kd-n3x" firstAttribute="top" secondItem="6xg-zD-lx6" secondAttribute="top" constant="86" id="XGz-Xk-8Fi"/>
                             <constraint firstItem="YY6-gl-aqt" firstAttribute="centerY" secondItem="6xg-zD-lx6" secondAttribute="centerY" id="XtC-jM-hhn"/>
                             <constraint firstItem="YY6-gl-aqt" firstAttribute="leading" secondItem="6xg-zD-lx6" secondAttribute="leading" constant="20" id="a3p-hn-rmV"/>
+                            <constraint firstItem="FuK-Kd-n3x" firstAttribute="centerX" secondItem="6xg-zD-lx6" secondAttribute="centerX" id="h5L-GP-uQq"/>
                             <constraint firstItem="glC-zv-xrd" firstAttribute="centerY" secondItem="6xg-zD-lx6" secondAttribute="centerY" id="rBk-cM-g4R"/>
+                            <constraint firstItem="FuK-Kd-n3x" firstAttribute="top" secondItem="6xg-zD-lx6" secondAttribute="top" constant="10" id="uyl-W0-ygk"/>
                         </constraints>
                     </view>
                     <connections>
